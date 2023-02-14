@@ -1,4 +1,5 @@
-The most basic repo for a Chrome extension. Pedagogically built to learn Webpack.
+The most basic repo for a Chrome extension w/ React. Pedagogically built to learn Webpack.
 
-- Webpack configuration transpiles src/index.js (which handles import statements) to dist/main.js
-- Note other requirements for a Chrome extension, namely manifest.json, index.html, and logo.png are all manually inserted into dist/ which is an anti-pattern (everything in dist/ should be codegen-ed by Webpack)
+To understand the build process, read webpack.config.js
+
+To run, `npm run build` generates the `dist/` folder, which you should upload to Chrome
